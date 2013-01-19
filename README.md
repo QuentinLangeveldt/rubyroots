@@ -1,4 +1,4 @@
-rubyroots
+RubyRoots
 =========
 
 Repository for Garden Route Ruby User Group
@@ -7,7 +7,7 @@ https://groups.google.com/forum/#!forum/rubyroots
 
 http://rubyroots.herokuapp.com
 
-== GETTING STARTED
+=== GETTING STARTED
 
 == Clone the project from Github
 
@@ -17,6 +17,6 @@ git clone git@github.com:QuentinLangeveldt/rubyroots.git
 
 bundle install
 
-== START THE SERVER
+=== START THE SERVER
 
 rails s
