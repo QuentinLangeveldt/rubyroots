@@ -1,5 +1,9 @@
 Rubyroots::Application.routes.draw do
+
   resources :meetups
+
+  resources :gitgems
+
 
 
   resources :tasks
