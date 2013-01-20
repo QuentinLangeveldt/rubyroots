@@ -11,18 +11,27 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130119061230) do
+ActiveRecord::Schema.define(:version => 20130120112451) do
 
-  create_table "products", :force => true do |t|
+  create_table "gitgems", :force => true do |t|
     t.string   "name"
-    t.decimal  "price"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.text     "description"
+    t.string   "version"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
-  create_table "used_gems", :force => true do |t|
+  create_table "meetups", :force => true do |t|
+    t.datetime "date"
+    t.text     "description"
+    t.string   "place"
+    t.text     "direction"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "tasks", :force => true do |t|
     t.string   "name"
-    t.string   "url"
     t.string   "description"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
