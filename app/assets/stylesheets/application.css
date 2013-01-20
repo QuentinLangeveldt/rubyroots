@@ -11,3 +11,7 @@
  *= require_self
  *= require_tree .
  */
+.pull-right-2 {
+	float: right;
+	color: white;
+}
